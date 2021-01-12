@@ -1,0 +1,121 @@
+h4 {
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: center;
+    color: #e9f0ea;
+}
+
+h1 {
+    text-shadow: 2px 2px #343536;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: #e9f0ea;
+}
+
+img {
+    float: left;
+    width: 20%;
+    height: 20%:
+    object-fit: cover;
+}
+
+.striker {
+    position: absolute;
+    left: 45%;
+    top: 105px;
+    width: 75%;
+    height: 75%;
+}
+
+
+.left-winger {
+    position: absolute;
+    left: 7%;
+    top: 170px;
+    width: 90%;
+    height: 90%;
+}
+
+
+.right-winger {
+    position: absolute;
+    left: 74%;
+    top: 185px;
+    width: 110%;
+    height: 110%;
+}
+
+
+.center-attacking-midfielder {
+    position: absolute;
+    left: 38%;
+    top: 310px;
+    width: 135%;
+    height: 135%;
+}
+
+.center-left-midfielder{
+    position: absolute;
+    left: 20%;
+    top: 375px;
+    width: 120%;
+    height: 120%;
+}
+
+.center-right-midfielder{
+    position: absolute;
+    left: 58%;
+    top: 400px;
+    width: 110%;
+    height: 120%;
+}
+
+
+.left-back{
+    position: absolute;
+    left: 5%;
+    top: 460px;
+    width: 80%;
+    height: 80%;
+}
+
+
+.center-right-back {
+    position: absolute;
+    left: 22%;
+    top: 595px;
+    width: 105%;
+    height: 105%;
+}
+
+
+.center-left-back{
+    position: absolute;
+    left: 57%;
+    top: 590px;
+    width: 110%;
+    height: 110%;
+}
+
+
+.right-back{
+    position: absolute;
+    left: 76%;
+    top: 510px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.goal-keeper{
+    position: absolute;
+    left: 40%;
+    top: 730px;
+    width: 75%;
+    height: 75%;
+}
+
+
+
+body {
+    background-color: black;
+}

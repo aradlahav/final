@@ -1,0 +1,60 @@
+img {
+    max-width:50%;
+    height:auto;
+}
+
+.container {
+  max-width: 90%;
+  display: flex;
+}
+
+.container__image {
+  width: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  align-self: flex-start;
+}
+
+.container__text {
+  flex: 1 1 auto;
+}
+
+.second {
+  flex: 1 1 auto;
+  padding-top: 90px;
+  font-weight: bold;
+  font-size: 2em;
+  color: black;
+}
+
+
+h1 {
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px -1px 0 #b30000, 1px -1px 0 #b30000, -1px 1px 0 #b30000, 1px 1px 0 #b30000;
+  font-size: 8em;
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+  text-shadow: -1px -1px 0 #b30000, 1px -1px 0 #b30000, -1px 1px 0 #b30000, 1px 1px 0 #b30000;
+  font-size: 4em;
+}
+
+.second.button {
+  background-color: #b30000; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+}
+
+.head {
+    font-size: 1em;
+    color: #b30000;
+    border-bottom: 1px #b30000;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>meet our guys</title>
+    <link rel="stylesheet" href="/media/homepage.css">
+</head>
+<body>
+    <h4>meet our</h4>
+    <h1>TOP ELEVEN</h1>
+    <div class="players">
+        {% for player in players %}
+        {% if player.number == 19 %}
+        <div class="striker">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 10 %}
+        <div class="left-winger">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 9 %}
+        <div class="right-winger">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 18 %}
+        <div class="center-attacking-midfielder">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 8 %}
+        <div class="center-right-midfielder">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 17 %}
+        <div class="right-back">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 4 %}
+        <div class="center-left-back">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 5 %}
+        <div class="center-right-back">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 23 %}
+        <div class="left-back">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 6 %}
+        <div class="center-left-midfielder">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% elif player.number == 1 %}
+        <div class="goal-keeper">
+            <a href="{% url 'item' slug=player.slug%}"><img src="{{ player.picture.url }}"></a>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+
+
+</body>
+</html>
